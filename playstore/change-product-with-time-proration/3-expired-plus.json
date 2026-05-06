@@ -1,0 +1,52 @@
+{
+    "type": "raw",
+    "event": {
+        "platform": "playstore",
+        "payload": {
+            "version": "1.0",
+            "packageName": "co.unstatic.habitify",
+            "eventTimeMillis": "1778037810136",
+            "subscriptionNotification": {
+                "version": "1.0",
+                "notificationType": 13,
+                "purchaseToken": "dogoipijbidepkmglimmpjph.AO-J1Oyd_G7mxohBIJ-XQfL_ofFnCLu-Ztgw-ZeYTYGM_3R_xeTvfNSGqdCdHO5qHstDbc-T5itwXbU9yMfqVC7VK7aoJl0m9A",
+                "subscriptionPurchase": {
+                    "kind": "androidpublisher#subscriptionPurchaseV2",
+                    "regionCode": "VN",
+                    "lineItems": [
+                        {
+                            "productId": "co.unstatic.habitify.plus",
+                            "expiryTime": "2026-05-06T03:23:28.099Z",
+                            "latestSuccessfulOrderId": "GPA.3313-3682-6876-88932",
+                            "autoRenewingPlan": {
+                                "recurringPrice": {
+                                    "currencyCode": "VND",
+                                    "units": "395000"
+                                }
+                            },
+                            "offerDetails": {
+                                "basePlanId": "yearly"
+                            },
+                            "offerPhase": {
+                                "basePrice": {}
+                            }
+                        }
+                    ],
+                    "startTime": "2026-05-06T03:19:59.847Z",
+                    "subscriptionState": "SUBSCRIPTION_STATE_EXPIRED",
+                    "latestOrderId": "GPA.3313-3682-6876-88932",
+                    "canceledStateContext": {
+                        "replacementCancellation": {}
+                    },
+                    "testPurchase": {},
+                    "acknowledgementState": "ACKNOWLEDGEMENT_STATE_ACKNOWLEDGED",
+                    "externalAccountIdentifiers": {
+                        "obfuscatedExternalAccountId": "PfGf9VJvNpceWgN0Gt209OFwphS2"
+                    },
+                    "etag": "ca2b3ca23b977f3aa23c97dcb9b40a02"
+                }
+            }
+        },
+        "endUserId": "PfGf9VJvNpceWgN0Gt209OFwphS2"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "type": "raw",
+    "event": {
+        "platform": "playstore",
+        "payload": {
+            "version": "1.0",
+            "packageName": "co.unstatic.habitify",
+            "eventTimeMillis": "1778037808482",
+            "subscriptionNotification": {
+                "version": "1.0",
+                "notificationType": 4,
+                "purchaseToken": "ipngfgjndepkighgjmokkchj.AO-J1OxCenu7IPncRlA4wcxAlc6HHdNmHsEAi1BJTIcZcetQWeAGXQRgBc3Q3hU9cfQNO7-XUv0H2Q7lITEhWRpwsY5wGbskZw",
+                "subscriptionPurchase": {
+                    "kind": "androidpublisher#subscriptionPurchaseV2",
+                    "regionCode": "VN",
+                    "lineItems": [
+                        {
+                            "productId": "co.unstatic.habitify.pro",
+                            "expiryTime": "2026-05-06T03:40:06.700Z",
+                            "latestSuccessfulOrderId": "GPA.3375-4613-2716-42657",
+                            "autoRenewingPlan": {
+                                "autoRenewEnabled": true,
+                                "recurringPrice": {
+                                    "currencyCode": "VND",
+                                    "units": "105000"
+                                }
+                            },
+                            "offerDetails": {
+                                "basePlanId": "monthly"
+                            },
+                            "offerPhase": {
+                                "prorationPeriod": {}
+                            },
+                            "itemReplacement": {
+                                "productId": "co.unstatic.habitify.plus",
+                                "replacementMode": "WITH_TIME_PRORATION",
+                                "basePlanId": "yearly"
+                            }
+                        }
+                    ],
+                    "startTime": "2026-05-06T03:23:28.153Z",
+                    "subscriptionState": "SUBSCRIPTION_STATE_ACTIVE",
+                    "latestOrderId": "GPA.3375-4613-2716-42657",
+                    "linkedPurchaseToken": "dogoipijbidepkmglimmpjph.AO-J1Oyd_G7mxohBIJ-XQfL_ofFnCLu-Ztgw-ZeYTYGM_3R_xeTvfNSGqdCdHO5qHstDbc-T5itwXbU9yMfqVC7VK7aoJl0m9A",
+                    "testPurchase": {},
+                    "acknowledgementState": "ACKNOWLEDGEMENT_STATE_PENDING",
+                    "etag": "30bbb866ce76d3b677dc2b40973a924b"
+                }
+            }
+        },
+        "endUserId": "PfGf9VJvNpceWgN0Gt209OFwphS2"
+    }
+}
