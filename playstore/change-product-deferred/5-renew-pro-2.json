@@ -1,0 +1,60 @@
+{
+  "type": "raw",
+  "event": {
+    "platform": "playstore",
+    "endUserId": "3t6yVml2YafBRp1KEtFNSM2HBoa2",
+    "payload": {
+      "version": "1.0",
+      "packageName": "co.unstatic.habitify",
+      "eventTimeMillis": "1778132541648",
+      "subscriptionNotification": {
+        "version": "1.0",
+        "notificationType": 2,
+        "purchaseToken": "djfmcojkiijkcgjkfomogddi.AO-J1OyPqEDcUQ4EEZ9ISkDkp4Lm6KIwEHHwcbN5EmNsUFmpACu9_fTJOjzz6d-Cmiu7V1IDw_EK6ciwLdUzse0HlJDX1YtOJQ",
+        "subscriptionId": "co.unstatic.habitify.pro",
+        "subscriptionPurchase": {
+          "kind": "androidpublisher#subscriptionPurchaseV2",
+          "startTime": "2026-05-07T05:07:06.800Z",
+          "regionCode": "VN",
+          "subscriptionState": "SUBSCRIPTION_STATE_ACTIVE",
+          "latestOrderId": "GPA.3393-9238-4386-17438..1",
+          "linkedPurchaseToken": "meoghdnpkmljdlpdceidhdnp.AO-J1OyHYNuUhRTBd4F7p_Lo-23BeiPGSMlaeBBYNMCTL5bpnzFGDGUp1g6CE6XBQmDA1o3IP6MGx-BvtES96qr4WySkATqDFA",
+          "testPurchase": {},
+          "acknowledgementState": "ACKNOWLEDGEMENT_STATE_ACKNOWLEDGED",
+          "lineItems": [
+            {
+              "productId": "co.unstatic.habitify.pro",
+              "expiryTime": "2026-05-07T05:46:46.590Z",
+              "autoRenewingPlan": {
+                "autoRenewEnabled": true,
+                "recurringPrice": { "currencyCode": "VND", "units": "105000" }
+              },
+              "offerDetails": { "basePlanId": "monthly" },
+              "latestSuccessfulOrderId": "GPA.3393-9238-4386-17438..1",
+              "itemReplacement": {
+                "productId": "co.unstatic.habitify.plus",
+                "replacementMode": "DEFERRED",
+                "basePlanId": "yearly"
+              },
+              "offerPhase": { "basePrice": {} }
+            },
+            {
+              "productId": "co.unstatic.habitify.plus",
+              "expiryTime": "2026-05-07T05:36:41.854Z",
+              "autoRenewingPlan": {},
+              "offerDetails": { "basePlanId": "yearly" },
+              "latestSuccessfulOrderId": "GPA.3393-9238-4386-17438..1",
+              "itemReplacement": {
+                "productId": "co.unstatic.habitify.plus",
+                "replacementMode": "DEFERRED",
+                "basePlanId": "yearly"
+              },
+              "offerPhase": { "prorationPeriod": {} }
+            }
+          ],
+          "etag": "e173ab7582b28b63877d67a777ff62cc"
+        }
+      }
+    }
+  }
+}
