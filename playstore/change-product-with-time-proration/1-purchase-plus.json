@@ -1,50 +1,44 @@
 {
-    "type": "raw",
-    "event": {
-        "platform": "playstore",
-        "payload": {
-  "version": "1.0",
-  "packageName": "co.unstatic.habitify",
-  "eventTimeMillis": "1778037600135",
-  "subscriptionNotification": {
-    "version": "1.0",
-    "notificationType": 4,
-    "purchaseToken": "dogoipijbidepkmglimmpjph.AO-J1Oyd_G7mxohBIJ-XQfL_ofFnCLu-Ztgw-ZeYTYGM_3R_xeTvfNSGqdCdHO5qHstDbc-T5itwXbU9yMfqVC7VK7aoJl0m9A",
-    "subscriptionPurchase": {
-      "kind": "androidpublisher#subscriptionPurchaseV2",
-      "regionCode": "VN",
-      "lineItems": [
-        {
-          "productId": "co.unstatic.habitify.plus",
-          "expiryTime": "2026-05-06T03:49:59.516Z",
-          "latestSuccessfulOrderId": "GPA.3313-3682-6876-88932",
-          "autoRenewingPlan": {
-            "autoRenewEnabled": true,
-            "recurringPrice": {
-              "currencyCode": "VND",
-              "units": "395000"
+  "type": "raw",
+  "event": {
+    "platform": "playstore",
+    "endUserId": "3t6yVml2YafBRp1KEtFNSM2HBoa2",
+    "payload": {
+      "version": "1.0",
+      "packageName": "co.unstatic.habitify",
+      "eventTimeMillis": "1778119317727",
+      "subscriptionNotification": {
+        "version": "1.0",
+        "notificationType": 4,
+        "purchaseToken": "fdminecmdalcimakonlgaejm.AO-J1OxFa2yty50etcr2QrPWBO8Y9beKm21TYOJSFgXzBUoik7MJqz8IA8naOdJxLtbgeNNCTENPfAxRbGyX3hM2S5e82zx1uQ",
+        "subscriptionId": "co.unstatic.habitify.plus",
+        "subscriptionPurchase": {
+          "kind": "androidpublisher#subscriptionPurchaseV2",
+          "startTime": "2026-05-07T02:01:57.453Z",
+          "regionCode": "VN",
+          "subscriptionState": "SUBSCRIPTION_STATE_ACTIVE",
+          "latestOrderId": "GPA.3389-8416-9412-07002",
+          "testPurchase": {},
+          "acknowledgementState": "ACKNOWLEDGEMENT_STATE_PENDING",
+          "externalAccountIdentifiers": {
+            "obfuscatedExternalAccountId": "3t6yVml2YafBRp1KEtFNSM2HBoa2"
+          },
+          "lineItems": [
+            {
+              "productId": "co.unstatic.habitify.plus",
+              "expiryTime": "2026-05-07T02:31:56.620Z",
+              "autoRenewingPlan": {
+                "autoRenewEnabled": true,
+                "recurringPrice": { "currencyCode": "VND", "units": "395000" }
+              },
+              "offerDetails": { "basePlanId": "yearly" },
+              "latestSuccessfulOrderId": "GPA.3389-8416-9412-07002",
+              "offerPhase": { "basePrice": {} }
             }
-          },
-          "offerDetails": {
-            "basePlanId": "yearly"
-          },
-          "offerPhase": {
-            "basePrice": {}
-          }
+          ],
+          "etag": "beae2dc23bc055e637024a988cc77638"
         }
-      ],
-      "startTime": "2026-05-06T03:19:59.847Z",
-      "subscriptionState": "SUBSCRIPTION_STATE_ACTIVE",
-      "latestOrderId": "GPA.3313-3682-6876-88932",
-      "testPurchase": {},
-      "acknowledgementState": "ACKNOWLEDGEMENT_STATE_PENDING",
-      "externalAccountIdentifiers": {
-        "obfuscatedExternalAccountId": "PfGf9VJvNpceWgN0Gt209OFwphS2"
-      },
-      "etag": "8197372d71009f8dfd0a95782c4a05ea"
+      }
     }
   }
-},
-        "endUserId": "PfGf9VJvNpceWgN0Gt209OFwphS2"
-    }
 }

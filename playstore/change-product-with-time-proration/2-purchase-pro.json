@@ -1,53 +1,47 @@
 {
-    "type": "raw",
-    "event": {
-        "platform": "playstore",
-        "payload": {
-            "version": "1.0",
-            "packageName": "co.unstatic.habitify",
-            "eventTimeMillis": "1778037808482",
-            "subscriptionNotification": {
-                "version": "1.0",
-                "notificationType": 4,
-                "purchaseToken": "ipngfgjndepkighgjmokkchj.AO-J1OxCenu7IPncRlA4wcxAlc6HHdNmHsEAi1BJTIcZcetQWeAGXQRgBc3Q3hU9cfQNO7-XUv0H2Q7lITEhWRpwsY5wGbskZw",
-                "subscriptionPurchase": {
-                    "kind": "androidpublisher#subscriptionPurchaseV2",
-                    "regionCode": "VN",
-                    "lineItems": [
-                        {
-                            "productId": "co.unstatic.habitify.pro",
-                            "expiryTime": "2026-05-06T03:40:06.700Z",
-                            "latestSuccessfulOrderId": "GPA.3375-4613-2716-42657",
-                            "autoRenewingPlan": {
-                                "autoRenewEnabled": true,
-                                "recurringPrice": {
-                                    "currencyCode": "VND",
-                                    "units": "105000"
-                                }
-                            },
-                            "offerDetails": {
-                                "basePlanId": "monthly"
-                            },
-                            "offerPhase": {
-                                "prorationPeriod": {}
-                            },
-                            "itemReplacement": {
-                                "productId": "co.unstatic.habitify.plus",
-                                "replacementMode": "WITH_TIME_PRORATION",
-                                "basePlanId": "yearly"
-                            }
-                        }
-                    ],
-                    "startTime": "2026-05-06T03:23:28.153Z",
-                    "subscriptionState": "SUBSCRIPTION_STATE_ACTIVE",
-                    "latestOrderId": "GPA.3375-4613-2716-42657",
-                    "linkedPurchaseToken": "dogoipijbidepkmglimmpjph.AO-J1Oyd_G7mxohBIJ-XQfL_ofFnCLu-Ztgw-ZeYTYGM_3R_xeTvfNSGqdCdHO5qHstDbc-T5itwXbU9yMfqVC7VK7aoJl0m9A",
-                    "testPurchase": {},
-                    "acknowledgementState": "ACKNOWLEDGEMENT_STATE_PENDING",
-                    "etag": "30bbb866ce76d3b677dc2b40973a924b"
-                }
+  "type": "raw",
+  "event": {
+    "platform": "playstore",
+    "endUserId": "3t6yVml2YafBRp1KEtFNSM2HBoa2",
+    "payload": {
+      "version": "1.0",
+      "packageName": "co.unstatic.habitify",
+      "eventTimeMillis": "1778119424824",
+      "subscriptionNotification": {
+        "version": "1.0",
+        "notificationType": 4,
+        "purchaseToken": "macmhjmeginmdbhaggbhencd.AO-J1OxrcIW6iobuWkYtesNjskqkcI64xdMxXuH6NtVPSPGBsI9gOl0IUTv-y7jMSkOP11r5_qGxy53orjUFE2PcF04w2fCOIw",
+        "subscriptionId": "co.unstatic.habitify.pro",
+        "subscriptionPurchase": {
+          "kind": "androidpublisher#subscriptionPurchaseV2",
+          "startTime": "2026-05-07T02:03:44.509Z",
+          "regionCode": "VN",
+          "subscriptionState": "SUBSCRIPTION_STATE_ACTIVE",
+          "latestOrderId": "GPA.3365-0218-2977-87909",
+          "linkedPurchaseToken": "fdminecmdalcimakonlgaejm.AO-J1OxFa2yty50etcr2QrPWBO8Y9beKm21TYOJSFgXzBUoik7MJqz8IA8naOdJxLtbgeNNCTENPfAxRbGyX3hM2S5e82zx1uQ",
+          "testPurchase": {},
+          "acknowledgementState": "ACKNOWLEDGEMENT_STATE_PENDING",
+          "lineItems": [
+            {
+              "productId": "co.unstatic.habitify.pro",
+              "expiryTime": "2026-05-07T02:21:26.661Z",
+              "autoRenewingPlan": {
+                "autoRenewEnabled": true,
+                "recurringPrice": { "currencyCode": "VND", "units": "105000" }
+              },
+              "offerDetails": { "basePlanId": "monthly" },
+              "latestSuccessfulOrderId": "GPA.3365-0218-2977-87909",
+              "itemReplacement": {
+                "productId": "co.unstatic.habitify.plus",
+                "replacementMode": "WITH_TIME_PRORATION",
+                "basePlanId": "yearly"
+              },
+              "offerPhase": { "prorationPeriod": {} }
             }
-        },
-        "endUserId": "PfGf9VJvNpceWgN0Gt209OFwphS2"
+          ],
+          "etag": "7d008f95bab0e76644c32f1f90406d1b"
+        }
+      }
     }
+  }
 }
