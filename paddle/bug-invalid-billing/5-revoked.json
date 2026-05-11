@@ -1,0 +1,51 @@
+{
+  "type": "raw",
+  "event": {
+    "platform": "paddle",
+    "endUserId": "VepSCHrr3cWkuGhwkliiq4Dgkne2",
+    "payload": {
+      "eventId": "evt_01tc27step02adjrefund0000",
+      "eventType": "adjustment.created",
+      "occurredAt": "2026-05-25T05:00:00.000000Z",
+      "notificationId": "ntf_01tc27step02adjrefund000",
+      "data": {
+        "id": "adj_01tc27refund00000000000000",
+        "action": "refund",
+        "status": "approved",
+        "reason": "Customer requested refund",
+        "transactionId": "txn_01tc27xxxxxxxxxxxxxxxxxx",
+        "subscriptionId": "sub_01tc27xxxxxxxxxxxxxxxxxx",
+        "customerId": "ctm_01tc27xxxxxxxxxxxxxxxxxx",
+        "currencyCode": "VND",
+        "items": [
+          {
+            "id": "adjitm_01tc27item0001",
+            "itemId": "txnitm_01tc27xxxxxxxxxxxx",
+            "type": "full",
+            "amount": "105000",
+            "proration": null,
+            "totals": {
+              "tax": "0",
+              "total": "105000",
+              "subtotal": "105000",
+              "currencyCode": "VND"
+            }
+          }
+        ],
+        "totals": {
+          "tax": "0",
+          "total": "105000",
+          "subtotal": "105000",
+          "fee": "0",
+          "earnings": "105000",
+          "currencyCode": "VND"
+        },
+        "payoutTotals": null,
+        "creditAppliedToBalance": null,
+        "createdAt": "2026-05-25T05:00:00.000Z",
+        "updatedAt": "2026-05-25T05:00:00.000Z",
+        "customData": { "userId": "VepSCHrr3cWkuGhwkliiq4Dgkne2" }
+      }
+    }
+  }
+}
