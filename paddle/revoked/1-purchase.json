@@ -1,0 +1,87 @@
+{
+  "type": "raw",
+  "event": {
+    "platform": "paddle",
+    "endUserId": "VepSCHrr3cWkuGhwkliiq4Dgkne2",
+    "payload": {
+      "eventId": "evt_01tc09step01createtrial000",
+      "eventType": "subscription.created",
+      "occurredAt": "2026-05-11T02:58:49.866272Z",
+      "notificationId": "ntf_01tc09step01createtrial00",
+      "data": {
+        "id": "sub_01tc09xxxxxxxxxxxxxxxxxx",
+        "status": "trialing",
+        "customerId": "ctm_01tc09xxxxxxxxxxxxxxxxxx",
+        "addressId": "add_01tc09xxxxxxxxxxxxxxxxxx",
+        "currencyCode": "VND",
+        "createdAt": "2026-05-11T02:58:49.674Z",
+        "updatedAt": "2026-05-11T02:58:49.674Z",
+        "billingCycle": { "interval": "year", "frequency": 1 },
+        "items": [
+          {
+            "status": "trialing",
+            "quantity": 1,
+            "recurring": true,
+            "createdAt": "2026-05-11T02:58:49.674Z",
+            "updatedAt": "2026-05-11T02:58:49.674Z",
+            "price": {
+              "id": "pri_01k70v3b93ce70y2paj8k2vh2c",
+              "productId": "pro_01k70t95zzcfpk33k68wfr9mkt",
+              "description": "Pro Annual with Trial",
+              "type": "standard",
+              "taxMode": "internal",
+              "unitPrice": { "amount": "5999", "currencyCode": "USD" },
+              "status": "active",
+              "name": "Use Habitify Premium for 1 year. Charge yearly with 7-day trial.",
+              "billingCycle": { "interval": "year", "frequency": 1 },
+              "customData": null,
+              "trialPeriod": { "interval": "day", "frequency": 7 },
+              "unitPriceOverrides": [
+                { "countryCodes": ["VN"], "unitPrice": { "amount": "799000", "currencyCode": "VND" } },
+                { "countryCodes": ["US"], "unitPrice": { "amount": "5999", "currencyCode": "USD" } }
+              ],
+              "quantity": { "minimum": 1, "maximum": 999999 },
+              "importMeta": null
+            },
+            "product": {
+              "id": "pro_01k70t95zzcfpk33k68wfr9mkt",
+              "name": "Habitify Premium",
+              "type": "standard",
+              "taxCategory": "standard",
+              "status": "active",
+              "createdAt": "2025-10-08T02:26:53.567Z",
+              "updatedAt": "2025-10-08T02:26:53.567Z",
+              "description": null,
+              "imageUrl": null,
+              "customData": null,
+              "importMeta": null
+            },
+            "previouslyBilledAt": null,
+            "nextBilledAt": "2026-05-18T02:58:48.733789Z",
+            "trialDates": {
+              "startsAt": "2026-05-11T02:58:48.733789Z",
+              "endsAt": "2026-05-18T02:58:48.733789Z"
+            }
+          }
+        ],
+        "businessId": null,
+        "startedAt": "2026-05-11T02:58:48.733789Z",
+        "firstBilledAt": null,
+        "nextBilledAt": "2026-05-18T02:58:48.733789Z",
+        "pausedAt": null,
+        "canceledAt": null,
+        "discount": null,
+        "collectionMode": "automatic",
+        "billingDetails": null,
+        "currentBillingPeriod": {
+          "startsAt": "2026-05-11T02:58:48.733789Z",
+          "endsAt": "2026-05-18T02:58:48.733789Z"
+        },
+        "scheduledChange": null,
+        "customData": { "userId": "VepSCHrr3cWkuGhwkliiq4Dgkne2" },
+        "importMeta": null,
+        "transactionId": "txn_01tc09xxxxxxxxxxxxxxxxxx"
+      }
+    }
+  }
+}
