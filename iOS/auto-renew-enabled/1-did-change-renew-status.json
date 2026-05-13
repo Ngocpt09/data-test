@@ -1,0 +1,59 @@
+{
+  "type": "appstore_decoded",
+  "event": {
+    "endUserId": "AkJlxQwHlHa5Pi6wF5Dakd6iOwE2",
+    "payload": {
+      "notificationType": "DID_CHANGE_RENEWAL_STATUS",
+      "subtype": "AUTO_RENEW_ENABLED",
+      "notificationUUID": "8b9ce01b-1074-42c6-b733-7eb570062183",
+      "data": {
+        "appAppleId": 1111447047,
+        "bundleId": "co.vuvo.habitify",
+        "bundleVersion": "1668570941",
+        "environment": "Sandbox",
+        "status": 1,
+        "transactionInfo": {
+          "transactionId": "2000001169174660",
+          "originalTransactionId": "2000001169173746",
+          "webOrderLineItemId": "2000000141001281",
+          "bundleId": "co.vuvo.habitify",
+          "productId": "co.unstatic.premium.habitify.oneyear.alt.2",
+          "subscriptionGroupIdentifier": "20499840",
+          "purchaseDate": 1778640312000,
+          "originalPurchaseDate": 1778640132000,
+          "expiresDate": 1778643912000,
+          "quantity": 1,
+          "type": "Auto-Renewable Subscription",
+          "appAccountToken": "f395d5fa-2d5b-4af0-9210-423664bc0dc0",
+          "inAppOwnershipType": "PURCHASED",
+          "signedDate": 1778640830469,
+          "environment": "Sandbox",
+          "transactionReason": "RENEWAL",
+          "storefront": "VNM",
+          "storefrontId": "143471",
+          "price": 790000000,
+          "currency": "VND",
+          "appTransactionId": "705454845211176203",
+          "billingPlanType": "BILLED_UPFRONT"
+        },
+        "renewalInfo": {
+          "originalTransactionId": "2000001169173746",
+          "autoRenewProductId": "co.unstatic.premium.habitify.oneyear.alt.2",
+          "productId": "co.unstatic.premium.habitify.oneyear.alt.2",
+          "autoRenewStatus": 1,
+          "renewalPrice": 790000000,
+          "currency": "VND",
+          "signedDate": 1778640830469,
+          "environment": "Sandbox",
+          "recentSubscriptionStartDate": 1778640132000,
+          "renewalDate": 1778643912000,
+          "appTransactionId": "705454845211176203",
+          "appAccountToken": "f395d5fa-2d5b-4af0-9210-423664bc0dc0",
+          "renewalBillingPlanType": "BILLED_UPFRONT"
+        }
+      },
+      "version": "2.0",
+      "signedDate": 1778640830469
+    }
+  }
+}

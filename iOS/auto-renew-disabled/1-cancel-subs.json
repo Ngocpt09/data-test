@@ -1,0 +1,60 @@
+{
+    "type": "appstore_decoded",
+    "event": {
+        "endUserId": "AkJlxQwHlHa5Pi6wF5Dakd6iOwE2",
+        "payload": {
+            "notificationType": "DID_CHANGE_RENEWAL_STATUS",
+            "subtype": "AUTO_RENEW_DISABLED",
+            "notificationUUID": "d90a49ab-30e3-43e8-baaa-733bbc88d244",
+            "data": {
+                "appAppleId": 1111447047,
+                "bundleId": "co.vuvo.habitify",
+                "bundleVersion": "1668570941",
+                "environment": "Sandbox",
+                "status": 1,
+                "transactionInfo": {
+                    "transactionId": "2000001169212992",
+                    "originalTransactionId": "2000001169212992",
+                    "webOrderLineItemId": "2000000141009310",
+                    "bundleId": "co.vuvo.habitify",
+                    "productId": "co.unstatic.premium.habitify.oneyear.alt.2",
+                    "subscriptionGroupIdentifier": "20499840",
+                    "purchaseDate": 1778645050000,
+                    "originalPurchaseDate": 1778645050000,
+                    "expiresDate": 1778645230000,
+                    "quantity": 1,
+                    "type": "Auto-Renewable Subscription",
+                    "appAccountToken": "5bd0ed8d-339a-47c1-9c8f-17a43df0105b",
+                    "inAppOwnershipType": "PURCHASED",
+                    "signedDate": 1778645123264,
+                    "offerType": 1,
+                    "environment": "Sandbox",
+                    "transactionReason": "PURCHASE",
+                    "storefront": "USA",
+                    "storefrontId": "143441",
+                    "price": 0,
+                    "currency": "USD",
+                    "offerDiscountType": "FREE_TRIAL",
+                    "appTransactionId": "705530867483112937",
+                    "offerPeriod": "P7D",
+                    "billingPlanType": "BILLED_UPFRONT"
+                },
+                "renewalInfo": {
+                    "originalTransactionId": "2000001169212992",
+                    "autoRenewProductId": "co.unstatic.premium.habitify.oneyear.alt.2",
+                    "productId": "co.unstatic.premium.habitify.oneyear.alt.2",
+                    "autoRenewStatus": 0,
+                    "signedDate": 1778645123264,
+                    "environment": "Sandbox",
+                    "recentSubscriptionStartDate": 1778645050000,
+                    "renewalDate": 1778645230000,
+                    "appTransactionId": "705530867483112937",
+                    "appAccountToken": "5bd0ed8d-339a-47c1-9c8f-17a43df0105b",
+                    "renewalBillingPlanType": "BILLED_UPFRONT"
+                }
+            },
+            "version": "2.0",
+            "signedDate": 1778645123264
+        }
+    }
+}
