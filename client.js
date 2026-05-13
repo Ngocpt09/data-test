@@ -3,7 +3,7 @@ const path = require('path');
 const readline = require('readline');
 const { Client } = require('pg');
 
-const API_URL = 'https://revflow-api.manhbv.id.vn/endUsers/billingEvents';
+const API_URL = 'http://localhost:3000/endUsers/billingEvents';
 const API_KEY = 'sk_DAFKOSpLbSXkAZxjMvAyzIdmuooutAZLSyoDggOTIslWwEmYsamBcMGBLpgattOX';
 const PG_CONNECTION_STRING =
   'postgresql://admin:unstatic123%40@postgres.galva.dev/revflow?sslmode=require';
