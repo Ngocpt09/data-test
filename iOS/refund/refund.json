@@ -1,0 +1,60 @@
+{
+  "type": "appstore_decoded",
+  "event": {
+    "endUserId": "AlJlxQwHlHa5Pi6wF5Dakd6iOwE2",
+    "payload": {
+      "data": {
+        "appAppleId": 1111447047,
+        "bundleId": "co.vuvo.habitify",
+        "bundleVersion": "1668570919",
+        "environment": "Sandbox",
+        "status": 5,
+        "renewalInfo": {
+          "appAccountToken": "8d63d174-2b18-4b55-bc2a-42be5fde85b4",
+          "appTransactionId": "705509131646299474",
+          "autoRenewProductId": "co.unstatic.premium.habitify.onemonth",
+          "autoRenewStatus": 0,
+          "environment": "Sandbox",
+          "originalTransactionId": "400003209244416",
+          "productId": "co.unstatic.premium.habitify.onemonth",
+          "recentSubscriptionStartDate": 1778104653000,
+          "renewalBillingPlanType": "BILLED_UPFRONT",
+          "renewalDate": 1780783053000,
+          "signedDate": 1778625670618
+        },
+        "transactionInfo": {
+          "appAccountToken": "8d63d174-2b18-4b55-bc2a-42be5fde85b4",
+          "appTransactionId": "705509131646299474",
+          "billingPlanType": "BILLED_UPFRONT",
+          "bundleId": "co.vuvo.habitify",
+          "currency": "CLP",
+          "environment": "Sandbox",
+          "expiresDate": 1780783053000,
+          "inAppOwnershipType": "PURCHASED",
+          "originalPurchaseDate": 1778104653000,
+          "originalTransactionId": "400003209244416",
+          "price": 7990000,
+          "productId": "co.unstatic.premium.habitify.onemonth",
+          "purchaseDate": 1778104653000,
+          "quantity": 1,
+          "revocationDate": 1778624758000,
+          "revocationPercentage": 100000,
+          "revocationReason": 0,
+          "revocationType": "REFUND_FULL",
+          "signedDate": 1778625670618,
+          "storefront": "CHL",
+          "storefrontId": "143483",
+          "subscriptionGroupIdentifier": "20499840",
+          "transactionId": "480003209244416",
+          "transactionReason": "PURCHASE",
+          "type": "Auto-Renewable Subscription",
+          "webOrderLineItemId": "480001441806940"
+        }
+      },
+      "notificationType": "REFUND",
+      "notificationUUID": "9679b32d-1492-4138-b516-83cfe7e736c9",
+      "signedDate": 1778625670618,
+      "version": "2.0"
+    }
+  }
+}
