@@ -1,0 +1,56 @@
+{
+    "type": "appstore_decoded",
+    "event": {
+        "endUserId": "ApJlxQwHlHa5Pi6wF5Dakd6iOwE2",
+        "payload": {
+            "data": {
+                "appAppleId": 1111447047,
+                "bundleId": "co.vuvo.habitify",
+                "bundleVersion": "1668570859",
+                "environment": "Sandbox",
+                "status": 5
+            },
+            "notificationType": "REVOKE",
+            "notificationUUID": "9f36d0ba-7117-4de0-8692-ffe70b79f07a",
+            "signedDate": 1778594555913,
+            "version": "2.0",
+            "transactionInfo": {
+                "appTransactionId": "705446332639816186",
+                "billingPlanType": "BILLED_UPFRONT",
+                "bundleId": "co.vuvo.habitify",
+                "currency": "EUR",
+                "environment": "Sandbox",
+                "expiresDate": 1781299929000,
+                "inAppOwnershipType": "FAMILY_SHARED",
+                "originalPurchaseDate": 1776029529000,
+                "originalTransactionId": "505446069188019019",
+                "price": 10990,
+                "productId": "co.unstatic.premium.habitify.onemonth.alt",
+                "purchaseDate": 1778621529000,
+                "quantity": 1,
+                "revocationDate": 1778592900036,
+                "revocationPercentage": 100000,
+                "revocationReason": 0,
+                "revocationType": "FAMILY_REVOKE",
+                "signedDate": 1778594555913,
+                "storefront": "DEU",
+                "storefrontId": "143443",
+                "subscriptionGroupIdentifier": "20499840",
+                "transactionId": "505530243891259906",
+                "transactionReason": "RENEWAL",
+                "type": "Auto-Renewable Subscription",
+                "webOrderLineItemId": "505530243891259907"
+            },
+            "renewalInfo": {
+                "appTransactionId": "705446332639816186",
+                "environment": "Sandbox",
+                "originalTransactionId": "505446069188019019",
+                "productId": "co.unstatic.premium.habitify.onemonth.alt",
+                "recentSubscriptionStartDate": 1776029529000,
+                "renewalBillingPlanType": "BILLED_UPFRONT",
+                "renewalDate": 1781299929000,
+                "signedDate": 1778594555913
+            }
+        }
+    }
+}
