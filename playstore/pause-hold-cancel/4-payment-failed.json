@@ -1,0 +1,43 @@
+{
+  "type": "raw",
+  "event": {
+    "platform": "playstore",
+    "payload": {
+      "version": "1.0",
+      "packageName": "co.unstatic.habitify",
+      "eventTimeMillis": "1778732083693",
+      "subscriptionNotification": {
+        "version": "1.0",
+        "notificationType": 5,
+        "purchaseToken": "nhfnnkicapecgoiejknfmabk.AO-J1OwjwhgEz3_J1nV3rbe_iYSDGpHfibRhyeFubD9IFYCLJnc2TSNY-IAfrT7Y3N62pBy86J2g4jx3ZApKdA_hccahe_kotw",
+        "subscriptionPurchase": {
+          "kind": "androidpublisher#subscriptionPurchaseV2",
+          "regionCode": "VN",
+          "lineItems": [
+            {
+              "productId": "co.unstatic.habitify.pro",
+              "expiryTime": "2026-05-14T04:09:37.181Z",
+              "latestSuccessfulOrderId": "GPA.3375-7368-2071-65765",
+              "autoRenewingPlan": {
+                "autoRenewEnabled": true,
+                "recurringPrice": { "currencyCode": "VND", "units": "105000" }
+              },
+              "offerDetails": { "basePlanId": "monthly" },
+              "offerPhase": { "basePrice": {} }
+            }
+          ],
+          "startTime": "2026-05-14T04:04:37.957Z",
+          "subscriptionState": "SUBSCRIPTION_STATE_ON_HOLD",
+          "latestOrderId": "GPA.3375-7368-2071-65765..0",
+          "testPurchase": {},
+          "acknowledgementState": "ACKNOWLEDGEMENT_STATE_ACKNOWLEDGED",
+          "externalAccountIdentifiers": {
+            "obfuscatedExternalAccountId": "g4ml46SX4IarMU2GwHguXTOm5CH2"
+          },
+          "etag": "ca50aa32ad9bb13c23eda103f2c01140"
+        }
+      }
+    },
+    "endUserId": "g4ml46SX4IarMU2GwHguXTOm5CH2"
+  }
+}
