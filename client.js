@@ -74,11 +74,16 @@ function logEntitlements(rows) {
   for (let i = 0; i < rows.length; i++) {
     const r = rows[i];
     console.log(`  ${c.magenta}#${i + 1}${c.reset} ${c.dim}id${c.reset} ${r.id}`);
+    console.log(`     ${c.dim}event_type        ${c.reset} ${c.bold}${fmt(r.event_type)}${c.reset}`);
     console.log(`     ${c.dim}billing_status        ${c.reset} ${c.bold}${fmt(r.billing_status)}${c.reset}`);
     console.log(`     ${c.dim}billing_status_detail ${c.reset} ${fmt(r.billing_status_detail)}`);
+    console.log(`     ${c.dim}plan_id            ${c.reset} ${fmt(r.plan_id)}`);
+    console.log(`     ${c.dim}product_id         ${c.reset} ${fmt(r.product_id)}`);
     console.log(`     ${c.dim}started_at            ${c.reset} ${fmt(r.started_at)}`);
     console.log(`     ${c.dim}expires_at            ${c.reset} ${fmt(r.expires_at)}`);
     console.log(`     ${c.dim}revoked_at            ${c.reset} ${fmt(r.revoked_at)}`);
+    console.log(`     ${c.dim}previous_billing_status ${c.reset} ${fmt(r.previous_billing_status)}`);
+
   }
 }
 
@@ -154,7 +159,7 @@ async function runScenario(dir, files) {
       console.log(`  ${c.cyan}■ entitlements${c.reset}`);
       try {
         const sel = await db.query(
-          'SELECT id, billing_status, billing_status_detail, expires_at, started_at, revoked_at FROM entitlements WHERE end_user_id = $1 ORDER BY started_at NULLS LAST, id',
+          'SELECT id,event_type, billing_status, billing_status_detail, expires_at, started_at, revoked_at, previous_billing_status, plan_id, product_id FROM entitlements WHERE end_user_id = $1 ORDER BY started_at NULLS LAST, id',
           [endUserId]
         );
         logEntitlements(sel.rows);
