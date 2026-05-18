@@ -1,0 +1,108 @@
+{
+  "type": "raw",
+  "event": {
+    "platform": "paddle",
+    "endUserId": "kNQJ3fG65fdNfAWsTWvQp5KR8ct1",
+    "payload": {
+      "eventId": "evt_01krnmyb89pzdka7j3esda6rz1",
+      "eventType": "subscription.updated",
+      "occurredAt": "2026-05-15T11:04:29.705278Z",
+      "notificationId": "ntf_01krnmybmjtdp8vn10ka7k95b7",
+      "data": {
+        "id": "sub_01krnmrmes9ez88qys0vct390m",
+        "status": "active",
+        "customerId": "ctm_01krnmr6yq81zvvz055e0gxqsb",
+        "addressId": "add_01krnmrbt94w7cgwz305m1386f",
+        "currencyCode": "VND",
+        "createdAt": "2026-05-15T11:01:22.521Z",
+        "updatedAt": "2026-05-15T11:04:26.293Z",
+        "billingCycle": { "interval": "year", "frequency": 1 },
+        "items": [
+          {
+            "status": "active",
+            "quantity": 1,
+            "recurring": true,
+            "createdAt": "2026-05-15T11:01:22.521Z",
+            "updatedAt": "2026-05-15T11:04:26.294Z",
+            "price": {
+              "id": "pri_01k70v3b93ce70y2paj8k2vh2c",
+              "productId": "pro_01k70t95zzcfpk33k68wfr9mkt",
+              "description": "Pro Annually",
+              "type": "standard",
+              "taxMode": "internal",
+              "unitPrice": { "amount": "5999", "currencyCode": "USD" },
+              "status": "active",
+              "name": "Free 7-day Habitify Premium, then yearly charge",
+              "billingCycle": { "interval": "year", "frequency": 1 },
+              "customData": null,
+              "trialPeriod": {
+                "interval": "day",
+                "frequency": 7,
+                "requiresPaymentMethod": true
+              },
+              "unitPriceOverrides": [
+                {
+                  "countryCodes": ["VN"],
+                  "unitPrice": { "amount": "785000", "currencyCode": "VND" }
+                },
+                {
+                  "countryCodes": ["UM"],
+                  "unitPrice": { "amount": "3999", "currencyCode": "USD" }
+                },
+                {
+                  "countryCodes": ["US"],
+                  "unitPrice": { "amount": "5999", "currencyCode": "USD" }
+                },
+                {
+                  "countryCodes": ["GB"],
+                  "unitPrice": { "amount": "4499", "currencyCode": "GBP" }
+                },
+                {
+                  "countryCodes": ["JP"],
+                  "unitPrice": { "amount": "9500", "currencyCode": "JPY" }
+                }
+              ],
+              "quantity": { "minimum": 1, "maximum": 1 },
+              "importMeta": null
+            },
+            "product": {
+              "id": "pro_01k70t95zzcfpk33k68wfr9mkt",
+              "name": "Habitify Premium",
+              "type": "standard",
+              "taxCategory": "standard",
+              "status": "active",
+              "createdAt": "2025-10-08T02:26:53.567Z",
+              "updatedAt": "2025-10-08T02:26:53.567Z",
+              "description": null,
+              "imageUrl": null,
+              "customData": null,
+              "importMeta": null
+            },
+            "previouslyBilledAt": "2026-05-15T11:04:26.282Z",
+            "nextBilledAt": "2027-05-15T11:04:26.282Z",
+            "trialDates": {
+              "startsAt": "2026-05-15T11:01:22.516Z",
+              "endsAt": "2026-05-15T11:04:26.282Z"
+            }
+          }
+        ],
+        "businessId": null,
+        "startedAt": "2026-05-15T11:01:22.516Z",
+        "firstBilledAt": "2026-05-15T11:04:26.282Z",
+        "nextBilledAt": "2027-05-15T11:04:26.282Z",
+        "pausedAt": null,
+        "canceledAt": null,
+        "discount": null,
+        "collectionMode": "automatic",
+        "billingDetails": null,
+        "currentBillingPeriod": {
+          "startsAt": "2026-05-15T11:04:26.282Z",
+          "endsAt": "2027-05-15T11:04:26.282Z"
+        },
+        "scheduledChange": null,
+        "customData": { "userId": "kNQJ3fG65fdNfAWsTWvQp5KR8ct1" },
+        "importMeta": null
+      }
+    }
+  }
+}
