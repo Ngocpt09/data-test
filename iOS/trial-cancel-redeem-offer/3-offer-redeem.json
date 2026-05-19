@@ -1,0 +1,65 @@
+{
+  "type": "appstore_decoded",
+  "event": {
+    "endUserId": "AkJlxQwHlHa5Pi6wF5Dakd6iOwE2",
+    "payload": {
+      "notificationType": "OFFER_REDEEMED",
+      "notificationUUID": "8dcdcb18-ebcc-457d-851c-e5738bedc789",
+      "data": {
+        "appAppleId": 1111447047,
+        "bundleId": "co.vuvo.habitify",
+        "bundleVersion": "1668570952",
+        "environment": "Sandbox",
+        "status": 1,
+        "transactionInfo": {
+          "transactionId": "2000001172957766",
+          "originalTransactionId": "2000001172957766",
+          "webOrderLineItemId": "2000000141920097",
+          "bundleId": "co.vuvo.habitify",
+          "productId": "co.unstatic.premium.habitify.oneyear.alt.2",
+          "subscriptionGroupIdentifier": "20499840",
+          "purchaseDate": 1779176122000,
+          "originalPurchaseDate": 1779176122000,
+          "expiresDate": 1779176302000,
+          "quantity": 1,
+          "type": "Auto-Renewable Subscription",
+          "appAccountToken": "d9bd7b9a-7b87-4bca-a6d2-9188279d85ef",
+          "inAppOwnershipType": "PURCHASED",
+          "signedDate": 1779176212631,
+          "offerType": 1,
+          "environment": "Sandbox",
+          "transactionReason": "PURCHASE",
+          "storefront": "USA",
+          "storefrontId": "143441",
+          "price": 0,
+          "currency": "USD",
+          "offerDiscountType": "FREE_TRIAL",
+          "appTransactionId": "705549358722445376",
+          "offerPeriod": "P7D",
+          "billingPlanType": "BILLED_UPFRONT"
+        },
+        "renewalInfo": {
+          "originalTransactionId": "2000001172957766",
+          "autoRenewProductId": "co.unstatic.premium.habitify.oneyear.alt.2",
+          "productId": "co.unstatic.premium.habitify.oneyear.alt.2",
+          "autoRenewStatus": 1,
+          "offerType": 3,
+          "renewalPrice": 24990,
+          "currency": "USD",
+          "offerDiscountType": "PAY_AS_YOU_GO",
+          "offerIdentifier": "Student Discount",
+          "signedDate": 1779176212631,
+          "environment": "Sandbox",
+          "recentSubscriptionStartDate": 1779176122000,
+          "renewalDate": 1779176302000,
+          "appTransactionId": "705549358722445376",
+          "offerPeriod": "P1Y",
+          "appAccountToken": "d9bd7b9a-7b87-4bca-a6d2-9188279d85ef",
+          "renewalBillingPlanType": "BILLED_UPFRONT"
+        }
+      },
+      "version": "2.0",
+      "signedDate": 1779176212631
+    }
+  }
+}
