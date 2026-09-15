@@ -1,0 +1,43 @@
+{
+  "level": 20,
+  "time": "2026-09-15T05:15:09.570Z",
+  "service": "main",
+  "env": "development",
+  "version": "1.0",
+  "packageName": "co.unstatic.connect",
+  "eventTimeMillis": "1789449307205",
+  "subscriptionNotification": {
+    "version": "1.0",
+    "notificationType": 2,
+    "purchaseToken": "clcckmcmmmppefmgncgighib.AO-J1OxA45Pi6ETbUjalcmwVdrXsm6xFNmcJCrBcwwGe9Zi4x0TMF5PjzRJfNZS8Q7ZkoO1UL5XLywCK8c5D04QVEpdQQkiTEA",
+    "subscriptionPurchase": {
+      "kind": "androidpublisher#subscriptionPurchaseV2",
+      "regionCode": "VN",
+      "lineItems": [
+        {
+          "productId": "co.unstatic.connect.extra.yearly",
+          "expiryTime": "2026-09-15T05:45:01.027Z",
+          "latestSuccessfulOrderId": "GPA.3392-2094-4305-51611..0",
+          "autoRenewingPlan": {
+            "autoRenewEnabled": true,
+            "recurringPrice": { "currencyCode": "VND", "units": "3950000" }
+          },
+          "offerDetails": { "offerId": "disscount-50", "basePlanId": "yearly" },
+          "offerPhase": { "introductoryPrice": {} },
+          "itemReplacement": {
+            "productId": "co.unstatic.connect.extra.yearly",
+            "replacementMode": "WITHOUT_PRORATION",
+            "basePlanId": "yearly"
+          }
+        }
+      ],
+      "startTime": "2026-09-15T04:51:16.671Z",
+      "subscriptionState": "SUBSCRIPTION_STATE_ACTIVE",
+      "latestOrderId": "GPA.3392-2094-4305-51611..0",
+      "linkedPurchaseToken": "plaedhogcpglkfmmnhnkcamh.AO-J1OwPnK0kFllFrWvgAXcm0oZn4ejlDZObkmysfTjdMYUXI_1lzyp2D7rkO0R34DYr2jKVuuCSJGUEYyWTwHnzTgLFYvpcdg",
+      "testPurchase": {},
+      "acknowledgementState": "ACKNOWLEDGEMENT_STATE_ACKNOWLEDGED",
+      "etag": "4fa5a730c889f6b85b5b27edbed60032"
+    }
+  }
+}

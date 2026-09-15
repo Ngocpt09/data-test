@@ -1,0 +1,44 @@
+{
+  "level": 20,
+  "time": "2026-09-15T07:06:16.034Z",
+  "service": "main",
+  "env": "development",
+  "version": "1.0",
+  "packageName": "co.unstatic.connect",
+  "eventTimeMillis": "1789455973769",
+  "subscriptionNotification": {
+    "version": "1.0",
+    "notificationType": 3,
+    "purchaseToken": "nkhgmakbchfoffagehcombgd.AO-J1OwsCSaTPcgujhguRoDb7DIZpNfJyxWpD66phTb9x_hY-0ghi0oBOpxybpEfMM81lI1F2WhRzNDRwGNApNTwiWUdMs2FYw",
+    "subscriptionPurchase": {
+      "kind": "androidpublisher#subscriptionPurchaseV2",
+      "regionCode": "VN",
+      "lineItems": [
+        {
+          "productId": "co.unstatic.connect.premium.monthly",
+          "expiryTime": "2026-09-15T07:10:43.546Z",
+          "latestSuccessfulOrderId": "GPA.3377-7184-3070-29389",
+          "autoRenewingPlan": {
+            "recurringPrice": { "currencyCode": "VND", "units": "249000" }
+          },
+          "offerDetails": { "basePlanId": "monthly" },
+          "offerPhase": { "basePrice": {} }
+        }
+      ],
+      "startTime": "2026-09-15T07:05:44.062Z",
+      "subscriptionState": "SUBSCRIPTION_STATE_CANCELED",
+      "latestOrderId": "GPA.3377-7184-3070-29389",
+      "canceledStateContext": {
+        "userInitiatedCancellation": {
+          "cancelTime": "2026-09-15T07:06:13.079Z"
+        }
+      },
+      "testPurchase": {},
+      "acknowledgementState": "ACKNOWLEDGEMENT_STATE_ACKNOWLEDGED",
+      "externalAccountIdentifiers": {
+        "obfuscatedExternalAccountId": "165db3ab-544e-5a29-885d-d51a1ed06663"
+      },
+      "etag": "54aa811b77a023bb9dade9da8fee71ed"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "level": 20,
+  "time": "2026-09-15T07:36:17.506Z",
+  "service": "main",
+  "env": "development",
+  "version": "1.0",
+  "packageName": "co.unstatic.connect",
+  "eventTimeMillis": "1789457775683",
+  "subscriptionNotification": {
+    "version": "1.0",
+    "notificationType": 4,
+    "purchaseToken": "ipfmdkdalingebpbeehcpkfj.AO-J1OylahI9W6dpP1Xf8H1IyioT7ICrlkluNFNUOCCQTnWxvxUvqltNDjsrvPYQpR2Sp3m53sZF88kGfSltS7-H7SovH_xLug",
+    "subscriptionPurchase": {
+      "kind": "androidpublisher#subscriptionPurchaseV2",
+      "regionCode": "VN",
+      "lineItems": [
+        {
+          "productId": "co.unstatic.connect.extra.yearly",
+          "expiryTime": "2026-09-15T07:36:42.876Z",
+          "latestSuccessfulOrderId": "GPA.3346-7424-6106-96775",
+          "autoRenewingPlan": {
+            "autoRenewEnabled": true,
+            "recurringPrice": { "currencyCode": "VND", "units": "3950000" }
+          },
+          "offerDetails": { "offerId": "disscount-50", "basePlanId": "yearly" },
+          "offerPhase": { "prorationPeriod": {} },
+          "itemReplacement": {
+            "productId": "co.unstatic.connect.premium.yearly",
+            "replacementMode": "WITH_TIME_PRORATION",
+            "basePlanId": "annual",
+            "offerId": "freetrial-3d"
+          }
+        }
+      ],
+      "startTime": "2026-09-15T07:36:15.532Z",
+      "subscriptionState": "SUBSCRIPTION_STATE_ACTIVE",
+      "latestOrderId": "GPA.3346-7424-6106-96775",
+      "linkedPurchaseToken": "locglhpghheohadnjlfaelph.AO-J1Oz6nV7KZ78y9-C4VH2Au2yT8DNutVHfFye_7yvY_g4JpB-2vq1OLnDgJtIsinNVYgFO4nVqIVUsKQJIhk_9h6zDJjsuYg",
+      "testPurchase": {},
+      "acknowledgementState": "ACKNOWLEDGEMENT_STATE_PENDING",
+      "etag": "785d9b1a821455c0a929863d23b62dcb"
+    }
+  }
+}
